@@ -1,6 +1,6 @@
 # Testing opa + CDK (ts)
 
-The goal of using opa with CDK is to have a way to define constraints on the infrastructure generated. For instance one can limit how many instances are created, or prohibit instances to allow ssh access, or literally everything you can think of.
+Using opa with CDK allows us to define constraints to the generated infrastructure. For instance, one can limit the number of instances created, prohibit instances to allow ssh access, enforce usage of tags or literally everything you can think of.
 
 This repo follows the [Realize policy as code with AWS Cloud Development Kit through Open Policy Agent](https://aws.amazon.com/blogs/opensource/realize-policy-as-code-with-aws-cloud-development-kit-through-open-policy-agent/) article, but with TS.
 
